@@ -1,0 +1,213 @@
+﻿Diagnose log at 2023-10-21T19:39:46Z
+
+Executable: /usr/share/gcm-core/git-credential-manager-core
+Version: 2.0.0
+
+------------
+Diagnostic: Environment
+Skipped: False
+Success: True
+Exception: None
+Log:
+OSType: Linux
+OSVersion: Linux fedora-benoit 6.5.7-200.fc38.x86_64 #1 SMP PREEMPT_DYNAMIC Wed Oct 11 04:07:58 UTC 2023 x86_64 GNU/Linux
+Reading environment variables... OK
+ Variables:
+LSCOLORS=Gxfxcxdxbxegedabagacad
+DISPLAY=:0
+XDG_DATA_DIRS=/home/bleroux/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop
+ZSH=/home/bleroux/.oh-my-zsh
+MODULEPATH=/etc/modulefiles:/usr/share/modulefiles:/usr/share/modulefiles/Linux:/usr/share/modulefiles/Core:/usr/share/lmod/lmod/modulefiles/Core
+STEAM_FRAME_FORCE_CLOSE=1
+LESS=-R
+SYSTEMD_EXEC_PID=5432
+EDITOR=nvim
+SHELL=/usr/bin/zsh
+XAUTHORITY=/run/user/1000/gdm/Xauthority
+XDG_RUNTIME_DIR=/run/user/1000
+_=/usr/bin/git-credential-manager-core
+HOME=/home/bleroux
+XDG_SESSION_DESKTOP=gnome-xorg
+XDG_MENU_PREFIX=gnome-
+KITTY_INSTALLATION_DIR=/usr/lib64/kitty
+KITTY_PUBLIC_KEY=1:v%rLUW$U!XY>6ZYIr!V7K4wG4TdV-Dd+2AqS;@+1
+LANG=fr_FR.UTF-8
+JOURNAL_STREAM=8:39448
+DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/1000/bus
+SSH_AGENT_PID=4946
+PWD=/home/bleroux/Documents/School/Centrale Lille/Start and Go/Projet Robotique/software
+QT_IM_MODULE=ibus
+INVOCATION_ID=40b17fe127d049b1a21f0d7f92025b99
+MANAGERPID=4737
+WINDOWPATH=2
+MODULESHOME=/usr/share/lmod/lmod
+LMOD_ROOT=/usr/share/lmod
+XDG_SESSION_CLASS=user
+SESSION_MANAGER=local/unix:@/tmp/.ICE-unix/5009,unix/unix:/tmp/.ICE-unix/5009
+LMOD_CMD=/usr/share/lmod/lmod/libexec/lmod
+DESKTOP_SESSION=gnome-xorg
+KITTY_WINDOW_ID=1
+XDG_CURRENT_DESKTOP=GNOME
+HISTCONTROL=ignoredups
+COLORTERM=truecolor
+DEBUGINFOD_URLS=https://debuginfod.fedoraproject.org/ 
+XDG_SESSION_TYPE=x11
+STARSHIP_SESSION_KEY=3832321764392156
+KDEDIRS=/usr
+LMOD_DIR=/usr/share/lmod/lmod/libexec
+HOSTNAME=fedora-benoit
+XMODIFIERS=@im=ibus
+MANPATH=/usr/share/lmod/lmod/share/man:
+LS_COLORS=rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=01;37;41:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=01;36:*.au=01;36:*.flac=01;36:*.m4a=01;36:*.mid=01;36:*.midi=01;36:*.mka=01;36:*.mp3=01;36:*.mpc=01;36:*.ogg=01;36:*.ra=01;36:*.wav=01;36:*.oga=01;36:*.opus=01;36:*.spx=01;36:*.xspf=01;36:*~=00;90:*#=00;90:*.bak=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.swp=00;90:*.tmp=00;90:*.dpkg-dist=00;90:*.dpkg-old=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:
+GDMSESSION=gnome-xorg
+KITTY_PID=65459
+OLDPWD=/home/bleroux
+MODULEPATH_ROOT=/usr/share/modulefiles
+MAIL=/var/spool/mail/bleroux
+LMOD_PKG=/usr/share/lmod/lmod
+LMOD_SETTARG_FULL_SUPPORT=no
+SDL_VIDEO_MINIMIZE_ON_FOCUS_LOSS=0
+USER=bleroux
+LOGNAME=bleroux
+BASH_ENV=/usr/share/lmod/lmod/init/bash
+HISTSIZE=50000
+SSH_AUTH_SOCK=/run/user/1000/keyring/ssh
+LMOD_sys=Linux
+TERMINFO=/usr/lib64/kitty/terminfo
+CONDA_SHLVL=0
+GIO_LAUNCHED_DESKTOP_FILE_PID=65459
+TERM=xterm-kitty
+MOZ_GMP_PATH=/usr/lib64/mozilla/plugins/gmp-gmpopenh264/system-installed
+GDM_LANG=fr_FR.UTF-8
+USERNAME=bleroux
+PATH=/home/bleroux/.local/bin:/usr/local/bin:/usr/local/sbin:/usr/bin:/usr/sbin:/var/lib/snapd/snap/bin
+LESSOPEN=||/usr/bin/lesspipe.sh %s
+LMOD_VERSION=8.7.31
+SHLVL=1
+WINDOWID=106954766
+STARSHIP_SHELL=zsh
+PAGER=less
+
+
+------------
+Diagnostic: File system
+Skipped: False
+Success: True
+Exception: None
+Log:
+Temporary directory is '/tmp/'...
+Checking basic file I/O...
+Writing to temporary file '/tmp/e6f44030b9ab27c087ddb071'... OK
+Reading from temporary file '/tmp/e6f44030b9ab27c087ddb071'... OK
+Deleting temporary file '/tmp/e6f44030b9ab27c087ddb071'... OK
+Testing IFileSystem instance...
+UserHomePath: /home/bleroux
+UserDataDirectoryPath: /home/bleroux/.gcm
+GetCurrentDirectory(): /home/bleroux/SynologyDrive/Documents/School/Centrale Lille/Start and Go/Projet Robotique/software
+
+------------
+Diagnostic: Networking
+Skipped: False
+Success: True
+Exception: None
+Log:
+Checking basic networking and HTTP stack...
+Creating HTTP client... OK
+IsNetworkAvailable: True
+Sending HEAD request to http://example.com... OK
+Sending HEAD request to https://example.com... OK
+Acquiring free TCP port... OK
+Testing local HTTP loopback connections...
+Creating new HTTP listener for http://localhost:39187/... OK
+Waiting for loopback connection... OK
+Writing response... OK
+Waiting for response data... OK
+Loopback connection data OK
+Testing with IHttpClientFactory created HTTP client...
+Creating HTTP client... OK
+IsNetworkAvailable: True
+Sending HEAD request to http://example.com... OK
+Sending HEAD request to https://example.com... OK
+Acquiring free TCP port... OK
+Testing local HTTP loopback connections...
+Creating new HTTP listener for http://localhost:33713/... OK
+Waiting for loopback connection... OK
+Writing response... OK
+Waiting for response data... OK
+Loopback connection data OK
+
+------------
+Diagnostic: Git
+Skipped: False
+Success: True
+Exception: None
+Log:
+Getting Git version... OK
+Git version is '2.41.0'
+Locating current repository... OK
+Git repository at '/home/bleroux/SynologyDrive/Documents/School/Centrale Lille/Start and Go/Projet Robotique/software/.git'
+Listing all Git configuration... OK
+Git configuration:
+file:/home/bleroux/.gitconfig	user.email=benoitleroux41@gmail.com
+file:/home/bleroux/.gitconfig	user.name=benoitlx
+file:/home/bleroux/.gitconfig	credential.helper=cache
+file:.git/config	core.repositoryformatversion=0
+file:.git/config	core.filemode=true
+file:.git/config	core.bare=false
+file:.git/config	core.logallrefupdates=true
+file:.git/config	remote.origin.url=https://github.com/benoitlx/Line-Following-Robot.git
+file:.git/config	remote.origin.fetch=+refs/heads/*:refs/remotes/origin/*
+
+
+------------
+Diagnostic: Credential storage
+Skipped: False
+Success: False
+Exception:
+System.Exception: No credential store has been selected.
+
+Set the GCM_CREDENTIAL_STORE environment variable or the credential.credentialStore Git configuration setting to one of the following options:
+
+  secretservice : freedesktop.org Secret Service (requires graphical interface)
+  gpg           : GNU `pass` compatible credential storage (requires GPG and `pass`)
+  cache         : Git's in-memory credential cache
+  plaintext     : store credentials in plain-text files (UNSECURE)
+
+See https://aka.ms/gcm/credstores for more information.
+
+   at GitCredentialManager.CredentialStore.EnsureBackingStore() in /builddir/build/BUILD/git-credential-manager-2.0.785/src/shared/Core/CredentialStore.cs:line 110
+   at GitCredentialManager.CredentialStore.Remove(String service, String account) in /builddir/build/BUILD/git-credential-manager-2.0.785/src/shared/Core/CredentialStore.cs:line 41
+   at GitCredentialManager.Diagnostics.CredentialStoreDiagnostic.RunInternalAsync(StringBuilder log, IList`1 additionalFiles) in /builddir/build/BUILD/git-credential-manager-2.0.785/src/shared/Core/Diagnostics/CredentialStoreDiagnostic.cs:line 65
+   at GitCredentialManager.Diagnostics.Diagnostic.RunAsync() in /builddir/build/BUILD/git-credential-manager-2.0.785/src/shared/Core/Diagnostics/Diagnostic.cs:line 40
+Log:
+ICredentialStore instance is of type: CredentialStore
+Writing test credential...Deleting test credential...
+------------
+Diagnostic: Microsoft authentication (AAD/MSA)
+Skipped: False
+Success: True
+Exception: None
+Log:
+Broker not supported.
+Flow type is: Auto
+Gathering MSAL token cache data... OK
+CacheDirectory: /home/bleroux/.local/.IdentityService
+CacheFileName: msal.cache
+CacheFilePath: /home/bleroux/.local/.IdentityService/msal.cache
+KeyringCollection: 
+KeyringSchemaName: 
+KeyringSecretLabel: 
+KeyringAttribute1: (,)
+KeyringAttribute2: (,)
+Creating cache helper... OK
+Verifying MSAL token cache persistence... OK
+
+------------
+Diagnostic: GitHub API
+Skipped: False
+Success: True
+Exception: None
+Log:
+Using 'https://github.com/' as API target.
+Querying '/meta' endpoint... OK
+
