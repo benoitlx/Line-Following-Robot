@@ -10,5 +10,11 @@ enum states getCurrentSate(){
 }
 
 void updateState(int event){
-  current_state = automata[event][current_state];
+  enum states state = automata[event][current_state];
+  if (state != current_state) {
+    current_state = state;
+#ifdef DEBUG 
+    // TODO: Add a sound with a buzzer
+#endif // DEBUG
+  }
 }
