@@ -1,16 +1,15 @@
 #include "Automata.h"
-#include "Arduino.h"
 
 void automataInit(){
   current_state = WaitPush;
 }
 
-enum states getCurrentSate(){
+states_t getCurrentState(){
   return current_state;
 }
 
-void updateState(int event){
-  enum states state = automata[event][current_state];
+void updateState(event_t event){
+  states_t state = automata[event][current_state];
   if (state != current_state) {
     current_state = state;
 #ifdef DEBUG 

@@ -1,5 +1,7 @@
-#ifndef AUTOMATA_H
-#define AUTOMATA_H
+#ifndef AUTOMATA_H_
+#define AUTOMATA_H_
+
+#include <Arduino.h>
 
 #define DEBUG 1
 
@@ -9,12 +11,14 @@
 #define N_TRANS 6
 
 
-enum Event{ButtonPush, ObstacleDetected, ObstacleAvoided, RobotRight, RobotLeft, EndEvent}; // Transition of the automata
+enum event{ButtonPush, ObstacleDetected, ObstacleAvoided, RobotRight, RobotLeft, EndEvent}; // Transition of the automata
+typedef enum event event_t ;
 
 enum states{Follow, Avoid, Stop, WaitPush, End};
-extern enum states current_state;
+typedef enum states states_t;
+extern states_t current_state;
 
-enum states automata[N_TRANS][N_STATE] = {
+const states_t automata[N_TRANS][N_STATE] = {
   // Follow, Avoid, Stop, WaitPush, End
   {Follow, Avoid, Stop, Follow, End},
   {Avoid, Avoid, Stop, WaitPush, End},
@@ -27,8 +31,8 @@ enum states automata[N_TRANS][N_STATE] = {
 
 
 void automataInit();
-enum states getCurrentState();
-void updateState(Event event);
+states_t getCurrentState();
+void updateState(event event);
 
-#endif // !AUTOMATA_H
+#endif // !AUTOMATA_H_
 
