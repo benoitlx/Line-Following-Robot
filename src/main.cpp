@@ -1,4 +1,5 @@
 #include <Arduino.h>
+#include "MeRGBLineFollower.h"
 #include "Motors.h"
 
 #include "Automata.h"
@@ -14,7 +15,7 @@ void end(); // Ending function
 
 
 void setup(){
-  current_state = WaitPush;
+  automataInit(); 
 
   // attach interrupt for radar (update event)
   // attach interrupt for ultrasonic sensor (update event)
