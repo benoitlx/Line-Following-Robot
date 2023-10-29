@@ -1,5 +1,5 @@
-#ifndef MOTORS_H
-#define MOTORS_H
+#ifndef MOTORS_H_
+#define MOTORS_H_
 
 #define MAXPWM 255 // can be set up to 255
 
@@ -16,4 +16,4 @@ class Motors {
 
 
 
-#endif // !MOTORS_H
+#endif // !MOTORS_H_
