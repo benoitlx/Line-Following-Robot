@@ -14,4 +14,8 @@ void initEncoders(); // setup encoder position detection
 
 int getPosition1(); // get the actual position of the incremental encoder in pulse.
 int getPosition2(); // get the actual position of the incremental encoder in pulse.
+
+float getVelocity1();
+float getVelocity2();
+
 #endif // !ENCODERS_H_
