@@ -125,6 +125,26 @@
         "file": "/home/bleroux/.platformio/packages/framework-arduino-avr/cores/arduino/wiring_shift.c"
     },
     {
+        "command": "/home/bleroux/.platformio/packages/toolchain-atmelavr/bin/avr-g++ -o .pio/build/megaatmega2560/lib05e/Automata/Automata.cpp.o -c -fno-exceptions -fno-threadsafe-statics -fpermissive -std=gnu++11 -mmcu=atmega2560 -Os -Wall -ffunction-sections -fdata-sections -flto -DPLATFORMIO=60106 -DARDUINO_AVR_MEGA2560 -DF_CPU=16000000L -DARDUINO_ARCH_AVR -DARDUINO=10808 -Ilib/Automata -I/home/bleroux/.platformio/packages/framework-arduino-avr/cores/arduino -I/home/bleroux/.platformio/packages/framework-arduino-avr/variants/mega lib/Automata/Automata.cpp",
+        "directory": "/home/bleroux/SynologyDrive/Documents/School/Centrale Lille/Start and Go/Projet Robotique/software",
+        "file": "/home/bleroux/SynologyDrive/Documents/School/Centrale Lille/Start and Go/Projet Robotique/software/lib/Automata/Automata.cpp"
+    },
+    {
+        "command": "/home/bleroux/.platformio/packages/toolchain-atmelavr/bin/avr-g++ -o .pio/build/megaatmega2560/lib180/Motors/Motors.cpp.o -c -fno-exceptions -fno-threadsafe-statics -fpermissive -std=gnu++11 -mmcu=atmega2560 -Os -Wall -ffunction-sections -fdata-sections -flto -DPLATFORMIO=60106 -DARDUINO_AVR_MEGA2560 -DF_CPU=16000000L -DARDUINO_ARCH_AVR -DARDUINO=10808 -Ilib/Motors -I/home/bleroux/.platformio/packages/framework-arduino-avr/cores/arduino -I/home/bleroux/.platformio/packages/framework-arduino-avr/variants/mega lib/Motors/Motors.cpp",
+        "directory": "/home/bleroux/SynologyDrive/Documents/School/Centrale Lille/Start and Go/Projet Robotique/software",
+        "file": "/home/bleroux/SynologyDrive/Documents/School/Centrale Lille/Start and Go/Projet Robotique/software/lib/Motors/Motors.cpp"
+    },
+    {
+        "command": "/home/bleroux/.platformio/packages/toolchain-atmelavr/bin/avr-g++ -o .pio/build/megaatmega2560/lib73e/Wire/Wire.cpp.o -c -fno-exceptions -fno-threadsafe-statics -fpermissive -std=gnu++11 -mmcu=atmega2560 -Os -Wall -ffunction-sections -fdata-sections -flto -DPLATFORMIO=60106 -DARDUINO_AVR_MEGA2560 -DF_CPU=16000000L -DARDUINO_ARCH_AVR -DARDUINO=10808 -I/home/bleroux/.platformio/packages/framework-arduino-avr/libraries/Wire/src -I/home/bleroux/.platformio/packages/framework-arduino-avr/cores/arduino -I/home/bleroux/.platformio/packages/framework-arduino-avr/variants/mega /home/bleroux/.platformio/packages/framework-arduino-avr/libraries/Wire/src/Wire.cpp",
+        "directory": "/home/bleroux/SynologyDrive/Documents/School/Centrale Lille/Start and Go/Projet Robotique/software",
+        "file": "/home/bleroux/.platformio/packages/framework-arduino-avr/libraries/Wire/src/Wire.cpp"
+    },
+    {
+        "command": "/home/bleroux/.platformio/packages/toolchain-atmelavr/bin/avr-gcc -o .pio/build/megaatmega2560/lib73e/Wire/utility/twi.c.o -c -std=gnu11 -fno-fat-lto-objects -mmcu=atmega2560 -Os -Wall -ffunction-sections -fdata-sections -flto -DPLATFORMIO=60106 -DARDUINO_AVR_MEGA2560 -DF_CPU=16000000L -DARDUINO_ARCH_AVR -DARDUINO=10808 -I/home/bleroux/.platformio/packages/framework-arduino-avr/libraries/Wire/src -I/home/bleroux/.platformio/packages/framework-arduino-avr/cores/arduino -I/home/bleroux/.platformio/packages/framework-arduino-avr/variants/mega /home/bleroux/.platformio/packages/framework-arduino-avr/libraries/Wire/src/utility/twi.c",
+        "directory": "/home/bleroux/SynologyDrive/Documents/School/Centrale Lille/Start and Go/Projet Robotique/software",
+        "file": "/home/bleroux/.platformio/packages/framework-arduino-avr/libraries/Wire/src/utility/twi.c"
+    },
+    {
         "command": "/home/bleroux/.platformio/packages/toolchain-atmelavr/bin/avr-g++ -o .pio/build/megaatmega2560/libc4a/MakeBlockDrive/Me4Button.cpp.o -c -fno-exceptions -fno-threadsafe-statics -fpermissive -std=gnu++11 -mmcu=atmega2560 -Os -Wall -ffunction-sections -fdata-sections -flto -DPLATFORMIO=60106 -DARDUINO_AVR_MEGA2560 -DF_CPU=16000000L -DARDUINO_ARCH_AVR -DARDUINO=10808 -I.pio/libdeps/megaatmega2560/MakeBlockDrive/src -I/home/bleroux/.platformio/packages/framework-arduino-avr/cores/arduino -I/home/bleroux/.platformio/packages/framework-arduino-avr/variants/mega .pio/libdeps/megaatmega2560/MakeBlockDrive/src/Me4Button.cpp",
         "directory": "/home/bleroux/SynologyDrive/Documents/School/Centrale Lille/Start and Go/Projet Robotique/software",
         "file": "/home/bleroux/SynologyDrive/Documents/School/Centrale Lille/Start and Go/Projet Robotique/software/.pio/libdeps/megaatmega2560/MakeBlockDrive/src/Me4Button.cpp"
@@ -365,7 +385,7 @@
         "file": "/home/bleroux/SynologyDrive/Documents/School/Centrale Lille/Start and Go/Projet Robotique/software/.pio/libdeps/megaatmega2560/MakeBlockDrive/src/utility/avr/Servo.cpp"
     },
     {
-        "command": "/home/bleroux/.platformio/packages/toolchain-atmelavr/bin/avr-g++ -o .pio/build/megaatmega2560/libb12/OPT3101/OPT3101.cpp.o -c -fno-exceptions -fno-threadsafe-statics -fpermissive -std=gnu++11 -mmcu=atmega2560 -Os -Wall -ffunction-sections -fdata-sections -flto -DPLATFORMIO=60106 -DARDUINO_AVR_MEGA2560 -DF_CPU=16000000L -DARDUINO_ARCH_AVR -DARDUINO=10808 -I.pio/libdeps/megaatmega2560/OPT3101 -I/home/bleroux/.platformio/packages/framework-arduino-avr/cores/arduino -I/home/bleroux/.platformio/packages/framework-arduino-avr/variants/mega .pio/libdeps/megaatmega2560/OPT3101/OPT3101.cpp",
+        "command": "/home/bleroux/.platformio/packages/toolchain-atmelavr/bin/avr-g++ -o .pio/build/megaatmega2560/libb12/OPT3101/OPT3101.cpp.o -c -fno-exceptions -fno-threadsafe-statics -fpermissive -std=gnu++11 -mmcu=atmega2560 -Os -Wall -ffunction-sections -fdata-sections -flto -DPLATFORMIO=60106 -DARDUINO_AVR_MEGA2560 -DF_CPU=16000000L -DARDUINO_ARCH_AVR -DARDUINO=10808 -I.pio/libdeps/megaatmega2560/OPT3101 -I/home/bleroux/.platformio/packages/framework-arduino-avr/libraries/Wire/src -I/home/bleroux/.platformio/packages/framework-arduino-avr/cores/arduino -I/home/bleroux/.platformio/packages/framework-arduino-avr/variants/mega .pio/libdeps/megaatmega2560/OPT3101/OPT3101.cpp",
         "directory": "/home/bleroux/SynologyDrive/Documents/School/Centrale Lille/Start and Go/Projet Robotique/software",
         "file": "/home/bleroux/SynologyDrive/Documents/School/Centrale Lille/Start and Go/Projet Robotique/software/.pio/libdeps/megaatmega2560/OPT3101/OPT3101.cpp"
     },
@@ -375,17 +395,12 @@
         "file": "/home/bleroux/SynologyDrive/Documents/School/Centrale Lille/Start and Go/Projet Robotique/software/.pio/libdeps/megaatmega2560/HCSR04/src/HCSR04.cpp"
     },
     {
-        "command": "/home/bleroux/.platformio/packages/toolchain-atmelavr/bin/avr-g++ -o .pio/build/megaatmega2560/lib05e/Automata/Automata.cpp.o -c -fno-exceptions -fno-threadsafe-statics -fpermissive -std=gnu++11 -mmcu=atmega2560 -Os -Wall -ffunction-sections -fdata-sections -flto -DPLATFORMIO=60106 -DARDUINO_AVR_MEGA2560 -DF_CPU=16000000L -DARDUINO_ARCH_AVR -DARDUINO=10808 -Ilib/Automata -I/home/bleroux/.platformio/packages/framework-arduino-avr/cores/arduino -I/home/bleroux/.platformio/packages/framework-arduino-avr/variants/mega lib/Automata/Automata.cpp",
+        "command": "/home/bleroux/.platformio/packages/toolchain-atmelavr/bin/avr-g++ -o .pio/build/megaatmega2560/lib360/Encoders/Encoders.cpp.o -c -fno-exceptions -fno-threadsafe-statics -fpermissive -std=gnu++11 -mmcu=atmega2560 -Os -Wall -ffunction-sections -fdata-sections -flto -DPLATFORMIO=60106 -DARDUINO_AVR_MEGA2560 -DF_CPU=16000000L -DARDUINO_ARCH_AVR -DARDUINO=10808 -Ilib/Encoders -I/home/bleroux/.platformio/packages/framework-arduino-avr/cores/arduino -I/home/bleroux/.platformio/packages/framework-arduino-avr/variants/mega lib/Encoders/Encoders.cpp",
         "directory": "/home/bleroux/SynologyDrive/Documents/School/Centrale Lille/Start and Go/Projet Robotique/software",
-        "file": "/home/bleroux/SynologyDrive/Documents/School/Centrale Lille/Start and Go/Projet Robotique/software/lib/Automata/Automata.cpp"
+        "file": "/home/bleroux/SynologyDrive/Documents/School/Centrale Lille/Start and Go/Projet Robotique/software/lib/Encoders/Encoders.cpp"
     },
     {
-        "command": "/home/bleroux/.platformio/packages/toolchain-atmelavr/bin/avr-g++ -o .pio/build/megaatmega2560/lib180/Motors/Motors.cpp.o -c -fno-exceptions -fno-threadsafe-statics -fpermissive -std=gnu++11 -mmcu=atmega2560 -Os -Wall -ffunction-sections -fdata-sections -flto -DPLATFORMIO=60106 -DARDUINO_AVR_MEGA2560 -DF_CPU=16000000L -DARDUINO_ARCH_AVR -DARDUINO=10808 -Ilib/Motors -I/home/bleroux/.platformio/packages/framework-arduino-avr/cores/arduino -I/home/bleroux/.platformio/packages/framework-arduino-avr/variants/mega lib/Motors/Motors.cpp",
-        "directory": "/home/bleroux/SynologyDrive/Documents/School/Centrale Lille/Start and Go/Projet Robotique/software",
-        "file": "/home/bleroux/SynologyDrive/Documents/School/Centrale Lille/Start and Go/Projet Robotique/software/lib/Motors/Motors.cpp"
-    },
-    {
-        "command": "/home/bleroux/.platformio/packages/toolchain-atmelavr/bin/avr-g++ -o .pio/build/megaatmega2560/src/main.cpp.o -c -fno-exceptions -fno-threadsafe-statics -fpermissive -std=gnu++11 -mmcu=atmega2560 -Os -Wall -ffunction-sections -fdata-sections -flto -DPLATFORMIO=60106 -DARDUINO_AVR_MEGA2560 -DF_CPU=16000000L -DARDUINO_ARCH_AVR -DARDUINO=10808 -Iinclude -Isrc -Ilib/Motors -Ilib/Automata -I.pio/libdeps/megaatmega2560/HCSR04/src -I.pio/libdeps/megaatmega2560/OPT3101 -I.pio/libdeps/megaatmega2560/MakeBlockDrive/src -I/home/bleroux/.platformio/packages/framework-arduino-avr/cores/arduino -I/home/bleroux/.platformio/packages/framework-arduino-avr/variants/mega src/main.cpp",
+        "command": "/home/bleroux/.platformio/packages/toolchain-atmelavr/bin/avr-g++ -o .pio/build/megaatmega2560/src/main.cpp.o -c -fno-exceptions -fno-threadsafe-statics -fpermissive -std=gnu++11 -mmcu=atmega2560 -Os -Wall -ffunction-sections -fdata-sections -flto -DPLATFORMIO=60106 -DARDUINO_AVR_MEGA2560 -DF_CPU=16000000L -DARDUINO_ARCH_AVR -DARDUINO=10808 -Iinclude -Isrc -Ilib/Encoders -I.pio/libdeps/megaatmega2560/HCSR04/src -I.pio/libdeps/megaatmega2560/OPT3101 -I.pio/libdeps/megaatmega2560/MakeBlockDrive/src -I/home/bleroux/.platformio/packages/framework-arduino-avr/libraries/Wire/src -Ilib/Motors -Ilib/Automata -I/home/bleroux/.platformio/packages/framework-arduino-avr/cores/arduino -I/home/bleroux/.platformio/packages/framework-arduino-avr/variants/mega src/main.cpp",
         "directory": "/home/bleroux/SynologyDrive/Documents/School/Centrale Lille/Start and Go/Projet Robotique/software",
         "file": "/home/bleroux/SynologyDrive/Documents/School/Centrale Lille/Start and Go/Projet Robotique/software/src/main.cpp"
     }

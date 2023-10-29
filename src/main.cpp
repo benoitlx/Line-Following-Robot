@@ -1,6 +1,7 @@
 #include <Arduino.h>
-#include "MeRGBLineFollower.h"
+//#include "MeRGBLineFollower.h"
 #include "Motors.h"
+#include "Encoders.h"
 
 #include "Automata.h"
 states_t current_state;
@@ -16,6 +17,9 @@ void end(); // Ending function
 
 void setup(){
   automataInit(); 
+  initEncoders();
+
+  Serial.begin(9600);
 
   // attach interrupt for radar (update event)
   // attach interrupt for ultrasonic sensor (update event)
@@ -29,7 +33,8 @@ void loop(){
 
   // Adjust the speed according to the position of the robot 
 
-  switch (getCurrentState()) {
+  // à remplacer par getCurrentState()
+  switch (Follow) {
     case WaitPush:
       waitPush();
       break;
@@ -46,6 +51,7 @@ void loop(){
       end();
       break;
   }
+
 }
 
 
